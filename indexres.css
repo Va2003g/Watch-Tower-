@@ -1,0 +1,156 @@
+/* Responsive Design */
+@media only screen and (max-width: 1342px) {
+  #all-icon {
+    margin-left: 10rem;
+  }
+}
+
+@media only screen and (max-width: 1287px) {
+  #internal-nav {
+    margin-top: -1rem;
+  }
+
+  #men {
+    text-align: center;
+  }
+  #images div img {
+    width: 250px;
+    height: 250px;
+  }
+
+  #women {
+    text-align: center;
+  }
+  #imagesw div img {
+    width: 250px;
+    height: 250px;
+  }
+  #kids {
+    text-align: center;
+  }
+  #imagesk div img {
+    width: 250px;
+    height: 250px;
+  }
+  #wall {
+    text-align: center;
+  }
+  #imagesc div img {
+    width: 250px;
+    height: 250px;
+  }
+}
+@media only screen and (max-width: 1262px) {
+  #all-icon {
+    margin-left: 5rem;
+  }
+
+  #images {
+    margin-top: 25px;
+  }
+  #imagesw {
+    margin-top: 25px;
+  }
+  #imagesk {
+    margin-top: 25px;
+  }
+  #imagesc {
+    margin-top: 25px;
+  }
+  #images div img {
+    width: 250px;
+    height: 250px;
+  }
+
+  #imagesw div img {
+    width: 250px;
+    height: 250px;
+  }
+  #imagesk div img {
+    width: 250px;
+    height: 250px;
+  }
+  #imagesc div img {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+/* responsive navigation hamburger icon */
+#hamburger {
+  /* height: 10%; */
+  /* background-color: white; */
+  /* color:white; */
+  /* font-size: 5rem; */
+  position: absolute;
+  top: 29%;
+  left: 87%;
+  cursor: pointer;
+  visibility: hidden;
+}
+#hamburger div {
+  padding: 3px;
+}
+.line {
+  width: 35px;
+  height: 6px;
+  border-top: 5px solid white;
+  box-sizing: border-box;
+}
+#res-nav {
+  visibility: hidden;
+  /* visibility: ; */
+  height: 100vh;
+  width: 11.82vw;
+  position: absolute;
+  left: 88%;
+  background-color: blanchedalmond;
+}
+#res-nav h3 {
+  font-family: monospace;
+  color: darkred;
+  text-align: center;
+  font-size: 2.5rem;
+}
+#res-nav ul {
+  margin: 71px 0px 0px -32px;
+  list-style-type: none;
+}
+
+.logo,
+.logo-name {
+  color: black;
+  font-size: 2.3rem;
+  margin: 0px 17px 0px 0px;
+}
+.logo {
+  color: darkmagenta;
+}
+#back {
+  display: inline-block;
+  font-size: 1.5rem;
+  margin: 7px 0px 0px 13px;
+  cursor: pointer;
+}
+#text {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+/* end of hamburger icon and responsive navigation */
+@media screen and (max-width: 1182px) {
+  #hamburger {
+    visibility: visible;
+    top: 33%;
+    left: 69%;
+  }
+  #all-icon {
+    visibility: hidden;
+  }
+  #internal-nav {
+    margin: -180px 0px 0px 74%;
+  }
+  #internal-nav div {
+    display: block;
+    padding: 2px;
+  }
+}
